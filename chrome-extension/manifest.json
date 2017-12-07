@@ -1,0 +1,13 @@
+{
+  "name": "DiFabbio",
+  "manifest_version": 2,
+  "version": "1",
+  "content_scripts": [
+    {
+      "matches": ["http://cherry-moth-cake.myshopify.com/products/*"],
+      "js": ["autocart.js"]
+    }
+  ], "permissions": [
+    "tabs", "http://cherry-moth-cake.myshopify.com/products/*"
+  ]
+}
